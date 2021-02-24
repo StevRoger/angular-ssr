@@ -11,7 +11,7 @@ import { HomePageComponent } from './website/home-page/home-page.component';
     HomePageComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule
   ],
   providers: [],
