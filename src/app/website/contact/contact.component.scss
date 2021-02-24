@@ -21,24 +21,7 @@
         letter-spacing: 1px;
     }
 }
-.button {
-    padding: 0.65rem 3rem;
-    background-color: transparent;
+.card {
+    background-color: rgba($color: #000000, $alpha: 0.75) !important;
     border: 2px solid #fefefe;
-    border-radius: 5px;
-    color: #fefefe;
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 1px;
-    transition: background-color 0.3s ease;
-
-    &:hover {
-        background-color: #fefefe;
-        color: #212529;
-        transition: background-color 0.3s ease;
-    }
-}
-.link {
-    margin: auto 0;
-    color: rgba($color: #fefefe, $alpha: 0.4);
 }
